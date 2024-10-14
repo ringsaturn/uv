@@ -951,7 +951,7 @@ fn lock_wheel_url() -> Result<()> {
         [project]
         name = "project"
         version = "0.1.0"
-        requires-python = ">=3.12"
+        requires-python = "==3.12"
         dependencies = ["anyio @ https://files.pythonhosted.org/packages/14/fd/2f20c40b45e4fb4324834aea24bd4afdf1143390242c0b33774da0e2e34f/anyio-4.3.0-py3-none-any.whl"]
 
         [build-system]
